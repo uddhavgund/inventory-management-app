@@ -1,0 +1,15 @@
+# Backend build output
+backend/target/
+
+# Frontend build output
+frontend/dist/
+
+# Node modules
+**/node_modules/
+
+# Uploaded images
+backend/uploads/
+
+# OS/Editor files
+.DS_Store
+.env
