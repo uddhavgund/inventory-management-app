@@ -1,0 +1,44 @@
+# === Java / Spring Boot ===
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# === Maven ===
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# === IntelliJ / VS Code ===
+.idea/
+.vscode/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+logs/
+*.log
+*.out
+
+# === Spring Boot uploads ===
+backend/uploads/
+
+# === React / Frontend ===
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# === Environment / Secrets ===
+*.env
+.env.*
+backend/src/main/resources/application-secret.properties
+
+# === Docker ===
+*.pid
+
+# === Others ===
+*.tmp
