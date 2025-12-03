@@ -33,9 +33,10 @@ frontend/dist/
 frontend/.vite/
 
 # === Environment / Secrets ===
-#*.env
-#.env.*
-#backend/src/main/resources/application-secret.properties
+*.env
+.env.*
+.env
+backend/src/main/resources/application.properties
 
 # === Docker ===
 *.pid
